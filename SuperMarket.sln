@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMarket", "SuperMarket\SuperMarket.csproj", "{F3F5673A-80C5-4F1F-A67B-625A3DD03DD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperMarket.Api", "SuperMarket\SuperMarket.Api.csproj", "{F3F5673A-80C5-4F1F-A67B-625A3DD03DD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMarket.Data", "SuperMarcket.Data\SuperMarket.Data.csproj", "{C5C98256-B5DE-46F5-A7EA-E23116535184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperMarket.Data", "SuperMarcket.Data\SuperMarket.Data.csproj", "{C5C98256-B5DE-46F5-A7EA-E23116535184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
