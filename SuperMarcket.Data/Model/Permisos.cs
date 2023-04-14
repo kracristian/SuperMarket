@@ -10,14 +10,11 @@ namespace SuperMarket.Data.Model
 {
     public class Permisos
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int IdPermiso { get; set; }
+        public int Id { get; set; }
         public string Descripcion { get; set; }
         public string Estado { get; set; }
         public string Rol { get; set; }
-        public int IdUsuario { get; set; }
-        [ForeignKey("IdUsuario")]
+        public int UsuarioId { get; set; }
         public virtual Usuario Usuario { get; set; }
     }
 }
