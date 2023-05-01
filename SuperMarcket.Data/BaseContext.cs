@@ -12,11 +12,13 @@ namespace SuperMarcket.Data
 
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Permisos> Permisos { get; set; }
+        public DbSet<Parqueadero> Parqueaderos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuario>().ToTable("Usuario");
             modelBuilder.Entity<Permisos>().ToTable("Permiso");
+            modelBuilder.Entity<Parqueadero>().ToTable("Parqueadero");
         }
 
     }
