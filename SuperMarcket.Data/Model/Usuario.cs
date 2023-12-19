@@ -12,7 +12,7 @@ namespace SuperMarket.Data.Model
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int IdUsuario { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Correo { get; set; }
         public string contrasena { get; set; }
